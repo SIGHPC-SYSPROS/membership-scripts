@@ -18,3 +18,9 @@ johnblaas@Johns-MacBook-Pro membership-scripts % python3 expired-member-parse.py
 
 [127 rows x 3 columns]
 ```
+After running the program you can find a full listing of expired members and addresses in a file called `expired_members.csv `
+
+```
+johnblaas@Johns-MacBook-Pro membership-scripts % cat expired_members.csv | wc -l
+     128
+```
